@@ -16,6 +16,8 @@ After installing the requirements, you should download the NLTK data by running 
 import nltk
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger_eng')
 ```
 ## Usage
 
@@ -36,3 +38,10 @@ python format_bib.py --input_file "input.bib" --output_file "output.bib"
 - A conference's .bib contains 5 info: "author", "title ", "booktitle", "pages", "year" (if any).
 - `no abbr` and `not found` bibtex is placed at the end of the output file and **need to be checked manually**.
 - More than one bibtex will all be saved, may cause duplicate bibtex (`Repeated entry` error in latex).
+
+### run bat
+
+```
+run.bat "Densely Connected Convolutional Networks"
+```
+
